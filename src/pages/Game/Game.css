@@ -1,0 +1,82 @@
+.game-section {
+    margin-top: 5rem;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.response-message {
+    position: fixed;
+    top: 1rem;
+    right: 1rem;
+}
+
+.control-container {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 1rem;
+    border-radius: 5px;
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hangman-image {
+    padding: 1%;
+    position: fixed;
+    top: 40%;
+    left: 1rem;
+    background: rgba(0, 0, 0, 0.7);
+    border-radius: 5px;
+}
+
+.start-game {
+    margin-top: 2rem;
+    font-family: 'SamuraiBlast', sans-serif;
+    margin-bottom: auto;
+    border: 2px solid #FF5722;
+    background-color: #4CAF50;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1.2em;
+    color: white;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+.start-game:hover {
+    background-color: #388E3C;
+    border-color: #E64A19;
+}
+
+.username {
+    position: fixed;
+    top: .7rem;
+    left: 1rem;
+    font-size: 2em;
+    color: #FFFF99;
+	text-shadow: 2px 2px 5px #005000;
+}
+
+.play-again-button {
+    position: fixed;
+    top: 50%;
+    border: 2px solid #FF5722;
+    background-color: #4CAF50;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1.2em;
+    color: white;
+    cursor: pointer;
+    text-transform: uppercase;
+    margin-top: 20px;
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+.play-again-button:hover {
+    background-color: #388E3C;
+    border-color: #E64A19;
+}

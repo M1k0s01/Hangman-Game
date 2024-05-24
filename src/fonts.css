@@ -1,0 +1,8 @@
+@font-face {
+    font-family: 'SamuraiBlast';
+    src: url('./assets/fonts/SamuraiBlast.ttf') format('truetype'); /* Adjust the path to your font file */
+}
+  
+body {
+    font-family: 'SamuraiBlast', sans-serif;
+}

@@ -1,0 +1,24 @@
+.menu-list {
+    margin-top: 5rem;
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+    flex-direction: column;
+}
+
+.menu-element {
+    text-align: center;
+    font-size: 3em;
+}
+
+.menu-element > a {
+    color: #FFFF99;
+    text-shadow: 2px 2px 4px #005000;
+    text-decoration: none;
+    transition: .5s text-shadow ease-in-out;
+}
+
+.menu-element > a:hover {
+    text-shadow: 5px 5px 10px #3B2500;
+    transition: .5s text-shadow ease-in-out;
+}

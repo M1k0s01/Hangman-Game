@@ -1,0 +1,24 @@
+.App {
+    display: flex;
+	flex-direction: column;
+	align-items: center;
+	background: url('./assets/background.webp');
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100%;
+}
+
+.game-title {
+	text-decoration: none;
+	color: #FFFFFF;
+	padding: .5rem 1rem;
+	border-radius: 1.5rem;
+    background-color: rgba(0, 0, 0, 0.7);
+	font-size: 4em;
+	text-shadow: 2px 2px 5px #005000;
+	margin-top: 11.5rem;
+}
+
+.pages {
+	height: 55%;
+}
